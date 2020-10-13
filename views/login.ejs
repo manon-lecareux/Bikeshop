@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+
+        <title>BikeShop - Connexion/Inscription</title>
+    </head>
+
+    <body>
+
+        <div class="container-fluid vh-100" style="background-image: url('/images/wallpaper.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center">
+
+            <!-- HEADER -->
+            <div class="row">
+  
+                <nav class="header col-12 navbar navbar-light bg-dark">
+                        <a class="navbar" href="/">
+                        <img src="/images/bike-logo.svg" width="50" height="50" class="logo" alt="">
+                        Bike Shop
+                        </a>
+                </nav>
+  
+                <!-- <div class="row ariane m-0 w-100">
+                  <nav aria-label="breadcrumb" class="col-12 p-0">
+                      <ol class="breadcrumb mb-0">
+                          <li class="breadcrumb-item active" aria-current="page">Inscription / Connexion</li>
+                      </ol>
+                  </nav>
+              </div> -->
+
+            </div>  
+            
+
+            <div class="row justify-content-center h-75 align-items-center mt-5">
+
+    
+              <!-- SIGN UP AREA -->
+              <div class="col-10 col-sm-4 text-center">
+    
+                <div class="formArea">
+                  <h4 class="titleForm text-white">Inscription</h4>
+    
+                  <form action="/sign-up" method="POST">
+                    <div class="form-group">
+                      <!-- <label for="exampleInputUsername">Nom utilisateur</label> -->
+                      <input name="usernameFromFront" type="text" class="form-control" placeholder="Nom d'utilisateur">
+                    </div>
+                    <div class="form-group">
+                      <!-- <label for="exampleInputEmail1">Email</label> -->
+                      <input name="emailFromFront" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <!-- <label for="exampleInputPassword1">Mot de passe</label> -->
+                      <input name="passwordFromFront" type="password" class="form-control"  placeholder="Mot de passe">
+                    </div>
+    
+                    <button type="submit" class="btn btn-info mb-5">Valider</button>
+                  </form>
+                </div>
+    
+              </div>
+    
+              <!-- SIGN IN AREA -->
+              <div class="col-10 col-sm-4 text-center">
+    
+                <div class="formArea">
+    
+                  <h4 class="titleForm text-white">Connexion</h4>
+    
+                  <form action="/sign-in" method="POST">
+                    <div class="form-group">
+                      <!-- <label for="exampleInputEmail1">Email</label> -->
+                      <input name="emailFromFront" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <!-- <label for="exampleInputPassword1">Mot de passe</label> -->
+                      <input name="passwordFromFront" type="password" class="form-control" placeholder="Mot de passe">
+                    </div>
+    
+                    <button type="submit" class="btn btn-info">Valider</button>
+                  </form>
+    
+                </div>
+    
+              </div>
+    
+            </div>
+
+
+
+            
+            
+                
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a41e9403cf.js" crossorigin="anonymous"></script>
+        <script src="/javascripts/script.js"></script>
+    </body>
+</html>
+

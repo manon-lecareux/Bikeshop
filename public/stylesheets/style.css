@@ -1,0 +1,87 @@
+/* ------ Body ---- */
+
+body{
+    background-color: #ffffff;
+    font-family: 'Darker Grotesque', sans-serif;
+} 
+
+/* ---------- Home page -------------- */
+
+.navbar{
+    padding:0px ;
+    color: #FFFFFF; 
+}
+
+.navbar:hover{
+    color: #FFFFFF;
+}
+
+.navbar:link{
+    text-decoration:none;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+.icon-bg{
+    background-color: #ffffff;
+    height: max-content;
+}
+
+.dropdown-menu{
+    min-width: 8rem;
+    text-align: center;
+    left:-70%
+}
+
+
+/* ----- Shop page ---------- */
+
+.header-shop{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.icon-basket{
+    margin-right: 5px;
+}
+
+.ariane {
+    margin-top: 25px;
+}
+
+.basket-img {
+    width: 100px;
+}
+
+.basket-item {
+    background-color: #ebebeb;
+}
+
+.basket-item-detail {
+    border-bottom: 20px solid white;
+    background-color:#f5f5f5;
+}
+
+.total-box {
+    font-weight: bold;
+
+}
+
+.btn-checkout {
+    font-weight: bold;
+}
+
+.no-article {
+    font-style: italic;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
